@@ -1,0 +1,82 @@
+[
+  {
+    "locale": "en",
+    "path": "",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/collection",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/collection/the-marin-house",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/contact",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/journal",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/services",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/story",
+    "violations": []
+  },
+  {
+    "locale": "en",
+    "path": "/advisors",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/collection",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/collection/the-marin-house",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/contact",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/journal",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/services",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/story",
+    "violations": []
+  },
+  {
+    "locale": "ar",
+    "path": "/advisors",
+    "violations": []
+  }
+]

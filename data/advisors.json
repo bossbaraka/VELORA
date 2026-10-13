@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a1",
+    "name": {
+      "en": "Nour Haddad",
+      "ar": "نور حداد"
+    },
+    "monogram": "NH",
+    "role": {
+      "en": "Private Property Advisor",
+      "ar": "مستشارة العقارات الخاصة"
+    },
+    "languages": {
+      "en": "English · Arabic",
+      "ar": "العربية · الإنجليزية"
+    },
+    "bio": {
+      "en": "A fictional advisor focused on understanding how a home should feel, then finding the architecture and setting to match.",
+      "ar": "مستشارة افتراضية تركز على فهم الشعور الذي يجب أن يمنحه المنزل، ثم اختيار العمارة والمكان المناسبين."
+    }
+  },
+  {
+    "id": "a2",
+    "name": {
+      "en": "Adam Faris",
+      "ar": "آدم فارس"
+    },
+    "monogram": "AF",
+    "role": {
+      "en": "Residential & Investment Advisor",
+      "ar": "مستشار السكن والاستثمار"
+    },
+    "languages": {
+      "en": "English · Arabic",
+      "ar": "العربية · الإنجليزية"
+    },
+    "bio": {
+      "en": "A fictional advisor with a practical approach to space, location and the questions that make a property decision clearer.",
+      "ar": "مستشار افتراضي يتبنى نهجاً عملياً للمساحة والموقع والأسئلة التي تجعل القرار العقاري أكثر وضوحاً."
+    }
+  }
+]

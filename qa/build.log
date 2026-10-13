@@ -1,0 +1,70 @@
+
+> velora-estates@1.0.0 build
+> RAYON_NUM_THREADS=1 UV_THREADPOOL_SIZE=2 next build
+
+   ▲ Next.js 15.5.27
+   - Experiments (use with caution):
+     ✓ webpackMemoryOptimizations
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 4.7s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/45) ...
+   Generating static pages (11/45) 
+   Generating static pages (22/45) 
+   Generating static pages (33/45) 
+ ✓ Generating static pages (45/45)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /_not-found                            997 B         104 kB
+├ ● /[locale]                            4.67 kB         186 kB
+├   ├ /en
+├   └ /ar
+├ ● /[locale]/advisors                     168 B         183 kB
+├   ├ /en/advisors
+├   └ /ar/advisors
+├ ● /[locale]/collection                   134 B         186 kB
+├   ├ /en/collection
+├   └ /ar/collection
+├ ● /[locale]/collection/[slug]          8.71 kB         190 kB
+├   ├ /en/collection/the-marin-house
+├   ├ /en/collection/vela-residence
+├   ├ /en/collection/casa-noor
+├   └ [+13 more paths]
+├ ● /[locale]/compare                    1.56 kB         180 kB
+├   ├ /en/compare
+├   └ /ar/compare
+├ ● /[locale]/contact                      168 B         183 kB
+├   ├ /en/contact
+├   └ /ar/contact
+├ ● /[locale]/journal                      168 B         183 kB
+├   ├ /en/journal
+├   └ /ar/journal
+├ ● /[locale]/journal/[slug]               169 B         183 kB
+├   ├ /en/journal/art-of-less
+├   ├ /en/journal/material-matters
+├   ├ /en/journal/waterfront-rhythm
+├   └ [+5 more paths]
+├ ● /[locale]/services                     168 B         183 kB
+├   ├ /en/services
+├   └ /ar/services
+├ ● /[locale]/shortlist                    134 B         186 kB
+├   ├ /en/shortlist
+├   └ /ar/shortlist
+└ ● /[locale]/story                        169 B         183 kB
+    ├ /en/story
+    └ /ar/story
++ First Load JS shared by all             103 kB
+  ├ chunks/493-3a7ee7f79f79ae9a.js       46.5 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          2.04 kB
+
+
+ƒ Middleware                             32.5 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

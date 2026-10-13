@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "art-of-less",
+    "title": {
+      "en": "The art of living with less.",
+      "ar": "فن العيش بالقليل."
+    },
+    "excerpt": {
+      "en": "Why the most memorable spaces are often the most restrained.",
+      "ar": "لماذا تكون المساحات الأكثر رسوخاً في الذاكرة هي الأكثر بساطة."
+    },
+    "category": {
+      "en": "Architecture",
+      "ar": "العمارة"
+    },
+    "readingTime": 2,
+    "cover": "/images/editorial/art-of-less.jpg",
+    "body": [
+      {
+        "en": "Why the most memorable spaces are often the most restrained.",
+        "ar": "لماذا تكون المساحات الأكثر رسوخاً في الذاكرة هي الأكثر بساطة."
+      },
+      {
+        "en": "Begin with the way a space supports an ordinary day. Observe where the morning light falls, how one room connects to another, and whether the quieter places remain quiet when the home is full. These small observations are often more useful than a long list of finishes.",
+        "ar": "ابدأ بالطريقة التي تدعم بها المساحة يوماً عادياً. لاحظ أين يسقط ضوء الصباح، وكيف تتصل الغرف، وما إذا كانت الأماكن الهادئة تحتفظ بهدوئها حين يمتلئ المنزل. غالباً ما تفيد هذه الملاحظات أكثر من قائمة طويلة بالتشطيبات."
+      },
+      {
+        "en": "Natural materials reveal their character through use. Stone holds a coolness underfoot; timber brings a softer scale to an open room. Neither needs to dominate. A thoughtful interior gives each material a clear role and leaves enough space to appreciate it.",
+        "ar": "تكشف المواد الطبيعية عن طابعها مع الاستخدام. يحتفظ الحجر ببرودته تحت القدم، ويمنح الخشب دفئاً للغرفة المفتوحة. لا يحتاج أي منهما إلى الهيمنة. يمنح التصميم المدروس كل مادة دوراً واضحاً ويترك مساحة لتقديرها."
+      },
+      {
+        "en": "At a viewing, take your time. Walk the route from arrival to living space, open a door to the outside and sit in the room you would use most. A considered decision comes from understanding both the image of a place and the life it could hold.",
+        "ar": "خذ وقتك أثناء الزيارة. امشِ من المدخل إلى غرفة المعيشة، وافتح باباً نحو الخارج، واجلس في الغرفة التي ستستخدمها أكثر. يأتي القرار المدروس من فهم صورة المكان والحياة التي يمكن أن يحتضنها."
+      }
+    ]
+  },
+  {
+    "slug": "material-matters",
+    "title": {
+      "en": "Materials that make a home.",
+      "ar": "مواد تصنع معنى المنزل."
+    },
+    "excerpt": {
+      "en": "Stone, timber and the quiet character of things made to last.",
+      "ar": "الحجر والخشب والطابع الهادئ للأشياء المصنوعة لتدوم."
+    },
+    "category": {
+      "en": "Design Notes",
+      "ar": "ملاحظات التصميم"
+    },
+    "readingTime": 2,
+    "cover": "/images/editorial/material-matters.jpg",
+    "body": [
+      {
+        "en": "A material palette is more than a list of finishes. It shapes how a room sounds, how light moves across a wall, and how a surface feels in daily use. The most convincing combinations give each material a clear purpose.",
+        "ar": "لوحة المواد ليست مجرد قائمة تشطيبات. فهي تشكل صوت الغرفة وحركة الضوء على الجدران وملمس الأسطح في الاستخدام اليومي. تمنح التوليفات الأكثر إقناعاً كل مادة غرضاً واضحاً."
+      },
+      {
+        "en": "Stone can connect an entrance to a terrace, but the same finish will not suit both. Ask about slip resistance outdoors, sealing requirements and how replacement pieces can be sourced. A beautiful sample should also make sense in the place it will live.",
+        "ar": "يمكن للحجر أن يصل المدخل بالتراس، لكن التشطيب نفسه قد لا يناسبهما معاً. اسأل عن مقاومة الانزلاق في الخارج، ومتطلبات العزل، وإمكانية توفير قطع بديلة. ينبغي للعينة الجميلة أن تناسب المكان الذي ستستخدم فيه."
+      },
+      {
+        "en": "Timber introduces warmth without needing to cover every surface. Look at the joinery where materials meet: the edge of a cabinet, a door reveal, a stair tread. A small, well-resolved junction often tells you more about a home than a dramatic feature wall.",
+        "ar": "يضيف الخشب دفئاً دون الحاجة إلى تغطية كل سطح. تأمل الحواف عند التقاء المواد: حافة خزانة أو إطار باب أو درجة سلم. قد تخبرك وصلة صغيرة متقنة عن المنزل أكثر من جدار استعراضي."
+      },
+      {
+        "en": "During a viewing, consider the care you are willing to give. Honest materials develop a patina. Choosing them thoughtfully means accepting both their initial appearance and the way they may change with time.",
+        "ar": "خلال الزيارة، فكر في العناية التي ترغب في تقديمها. تكتسب المواد الطبيعية آثار الزمن. واختيارها بوعي يعني تقبّل مظهرها الأول والطريقة التي قد تتغير بها مع الوقت."
+      }
+    ]
+  },
+  {
+    "slug": "waterfront-rhythm",
+    "title": {
+      "en": "A different rhythm by the water.",
+      "ar": "إيقاع مختلف بجوار الماء."
+    },
+    "excerpt": {
+      "en": "Looking beyond the view to the everyday experience of a waterfront home.",
+      "ar": "ما وراء الإطلالة: التجربة اليومية للمنزل على الواجهة البحرية."
+    },
+    "category": {
+      "en": "Living Well",
+      "ar": "جودة الحياة"
+    },
+    "readingTime": 2,
+    "cover": "/images/editorial/waterfront-rhythm.jpg",
+    "body": [
+      {
+        "en": "A waterfront view is immediate. The daily experience is more subtle. The distance from a door to a shaded path, the privacy of a terrace and the direction of the afternoon sun all deserve attention beyond the first photograph.",
+        "ar": "تأثير إطلالة الماء فوري، لكن التجربة اليومية أكثر دقة. تستحق المسافة من الباب إلى ممشى مظلل وخصوصية التراس واتجاه شمس العصر اهتماماً يتجاوز الصورة الأولى."
+      },
+      {
+        "en": "Visit at more than one time of day if possible. A place that feels still in the morning may have a different rhythm in the evening. Notice public access, nearby activity and whether outdoor spaces can be used comfortably through the seasons.",
+        "ar": "زر المكان في أكثر من وقت إن أمكن. فقد يتغير إيقاع المكان الهادئ صباحاً عند المساء. لاحظ طرق الوصول العامة والأنشطة المجاورة ومدى راحة استخدام المساحات الخارجية عبر الفصول."
+      },
+      {
+        "en": "Waterfront living also comes with practical questions. Ask how glazing, metalwork and outdoor finishes are maintained, and review the relevant service arrangements. These are ordinary ownership considerations, not reasons to overlook an otherwise suitable home.",
+        "ar": "ترافق الحياة على الماء أسئلة عملية أيضاً. اسأل عن صيانة الزجاج والأعمال المعدنية والتشطيبات الخارجية، وراجع ترتيبات الخدمة ذات الصلة. هذه اعتبارات اعتيادية للملكية وليست أسباباً لاستبعاد منزل مناسب."
+      },
+      {
+        "en": "The right setting supports your own routine. For some, that means a short walk before work. For others, it is a quiet terrace at the end of the day. Start with the life you want to lead, then consider the view.",
+        "ar": "يدعم المكان المناسب روتينك الخاص. قد يعني للبعض نزهة قصيرة قبل العمل، ولآخرين تراساً هادئاً في نهاية اليوم. ابدأ بالحياة التي تريدها، ثم تأمل الإطلالة."
+      }
+    ]
+  },
+  {
+    "slug": "considered-address",
+    "title": {
+      "en": "Choosing a considered address.",
+      "ar": "اختيار عنوان مدروس."
+    },
+    "excerpt": {
+      "en": "A practical framework for a decision that is deeply personal.",
+      "ar": "إطار عملي لقرار شديد الخصوصية."
+    },
+    "category": {
+      "en": "Perspective",
+      "ar": "وجهة نظر"
+    },
+    "readingTime": 2,
+    "cover": "/images/editorial/considered-address.jpg",
+    "body": [
+      {
+        "en": "An address connects a home to everything around it. Before comparing asking prices, write down the journeys you make often and the places that matter to your household. A useful shortlist begins with those details.",
+        "ar": "يربط العنوان المنزل بكل ما حوله. قبل مقارنة الأسعار، دوّن الرحلات المتكررة والأماكن المهمة لأسرتك. تبدأ القائمة المختارة المفيدة بهذه التفاصيل."
+      },
+      {
+        "en": "Look at the plan as carefully as the area. Two homes with similar dimensions can offer very different usable space. Consider circulation, storage, room proportions and whether a room can adapt as your needs change.",
+        "ar": "تأمل المخطط بعناية المساحة نفسها. فقد يقدّم منزلان بمساحتين متقاربتين استخداماً مختلفاً تماماً. فكر في الحركة والتخزين وتناسب الغرف وإمكانية التكيف مع تغير احتياجاتك."
+      },
+      {
+        "en": "For an investment-led purchase, separate evidence from assumptions. Review independent information about costs, applicable ownership rules and potential rental arrangements. Illustrative editorial scores, including those in this portfolio, are not financial forecasts.",
+        "ar": "عند الشراء للاستثمار، افصل الأدلة عن الافتراضات. راجع معلومات مستقلة حول التكاليف وقواعد التملك وترتيبات التأجير المحتملة. التقييمات التحريرية التوضيحية، بما فيها تقييمات هذه المحفظة، ليست توقعات مالية."
+      },
+      {
+        "en": "Finally, compare trade-offs rather than searching for a perfect score. One home may offer greater privacy; another a shorter daily journey. Naming the difference makes it easier to choose deliberately and seek appropriate professional advice.",
+        "ar": "أخيراً، قارن التنازلات بدلاً من البحث عن درجة مثالية. قد يوفر منزل خصوصية أكبر وآخر رحلة يومية أقصر. تسمية الفارق تسهّل الاختيار بوعي وطلب المشورة المهنية المناسبة."
+      }
+    ]
+  }
+]

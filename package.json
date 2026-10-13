@@ -1,0 +1,36 @@
+{
+  "name": "velora-estates",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "RAYON_NUM_THREADS=1 UV_THREADPOOL_SIZE=2 next build",
+    "start": "next start --hostname 0.0.0.0",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.468.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "vitest": "^3.2.0",
+    "@playwright/test": "^1.51.0",
+    "lighthouse": "^12.8.0",
+    "sharp": "^0.35.5"
+  },
+  "overrides": {
+    "postcss": "^8.5.23",
+    "sharp": "^0.35.5"
+  }
+}

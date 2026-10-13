@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "marin",
+    "slug": "the-marin-house",
+    "name": {
+      "en": "THE MARIN HOUSE",
+      "ar": "ذا مارين هاوس"
+    },
+    "type": "villa",
+    "price": {
+      "amount": 18500000,
+      "currency": "AED"
+    },
+    "area_sqft": 6200,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Palm Jumeirah",
+        "ar": "نخلة جميرا"
+      },
+      "waterfront_min": 3,
+      "downtown_min": 22,
+      "airport_min": 32,
+      "dining_min": 3
+    },
+    "tags": [
+      "waterfront",
+      "quiet",
+      "family",
+      "investment",
+      "retreat",
+      "pool",
+      "garden",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "A quieter perspective on waterfront living.",
+        "ar": "حياة على الواجهة البحرية، بمنظور أكثر هدوءاً."
+      }
+    ],
+    "scores": {
+      "privacy": 90,
+      "outdoor": 96,
+      "family": 86,
+      "investment": 80
+    },
+    "story": {
+      "en": "Beyond a sheltered entrance, a sequence of light-filled rooms opens towards the water. Pale stone, warm oak and deep terraces create a home that feels as natural outdoors as it does within. The pool sits at the heart of daily life, with space to gather and corners to retreat.",
+      "ar": "خلف مدخل محمي، تتوالى مساحات يغمرها الضوء وتنفتح نحو الماء. يمنح الحجر الفاتح وخشب البلوط والتراسات العميقة المنزل تناغماً بين الداخل والخارج. يحتل المسبح قلب الحياة اليومية، مع مساحات للاجتماع وزوايا للهدوء."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance, living areas and terrace",
+          "ar": "المدخل والمعيشة والتراس"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/marin/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/marin/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Garden-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على الحديقة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/marin/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Private pool",
+        "ar": "مسبح خاص"
+      },
+      {
+        "en": "Landscaped garden",
+        "ar": "حديقة منسقة"
+      },
+      {
+        "en": "Shaded terrace",
+        "ar": "تراس مظلل"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/marin/day-1.webp",
+        "/images/properties/marin/day-2.webp",
+        "/images/properties/marin/day-3.webp"
+      ],
+      "night": [
+        "/images/properties/marin/night-1.webp"
+      ]
+    },
+    "floorplan": "/images/properties/marin/floorplan.svg",
+    "orientation": "south",
+    "availability": "available",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "vela",
+      "noor"
+    ],
+    "advisorId": "a1"
+  },
+  {
+    "id": "vela",
+    "slug": "vela-residence",
+    "name": {
+      "en": "VELA RESIDENCE",
+      "ar": "فيلا ريزيدنس"
+    },
+    "type": "villa",
+    "price": {
+      "amount": 9200000,
+      "currency": "AED"
+    },
+    "area_sqft": 4850,
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Dubai Hills Estate",
+        "ar": "دبي هيلز استيت"
+      },
+      "waterfront_min": 24,
+      "downtown_min": 18,
+      "airport_min": 28,
+      "dining_min": 4
+    },
+    "tags": [
+      "city",
+      "quiet",
+      "family",
+      "investment",
+      "pool",
+      "garden",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "Room for every chapter.",
+        "ar": "مساحة لكل فصل من الحياة."
+      }
+    ],
+    "scores": {
+      "privacy": 84,
+      "outdoor": 89,
+      "family": 98,
+      "investment": 82
+    },
+    "story": {
+      "en": "A garden-led residence shaped around the rhythms of family life. Open living spaces connect to a shaded terrace, while the bedrooms occupy a quieter upper floor. A flexible study makes room for work without letting it take over the home.",
+      "ar": "منزل تتقدم فيه الحديقة، صُمم حول إيقاع الحياة العائلية. تتصل مساحات المعيشة المفتوحة بتراس مظلل، بينما تقع غرف النوم في طابق علوي أكثر هدوءاً. تتيح غرفة الدراسة المرنة مكاناً للعمل دون أن يطغى على المنزل."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance, living areas and terrace",
+          "ar": "المدخل والمعيشة والتراس"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/vela/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/vela/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Garden-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على الحديقة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/vela/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Private pool",
+        "ar": "مسبح خاص"
+      },
+      {
+        "en": "Landscaped garden",
+        "ar": "حديقة منسقة"
+      },
+      {
+        "en": "Shaded terrace",
+        "ar": "تراس مظلل"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/vela/day-1.webp",
+        "/images/properties/vela/day-2.webp",
+        "/images/properties/vela/day-3.webp"
+      ],
+      "night": [
+        "/images/properties/vela/night-1.webp"
+      ]
+    },
+    "floorplan": "/images/properties/vela/floorplan.svg",
+    "orientation": "east",
+    "availability": "available",
+    "is_private": false,
+    "label": "new",
+    "similarPropertyIds": [
+      "noor",
+      "aurelia"
+    ],
+    "advisorId": "a2"
+  },
+  {
+    "id": "noor",
+    "slug": "casa-noor",
+    "name": {
+      "en": "CASA NOOR",
+      "ar": "كازا نور"
+    },
+    "type": "villa",
+    "price": {
+      "amount": 14200000,
+      "currency": "AED"
+    },
+    "area_sqft": 5600,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Jumeirah",
+        "ar": "جميرا"
+      },
+      "waterfront_min": 8,
+      "downtown_min": 14,
+      "airport_min": 24,
+      "dining_min": 5
+    },
+    "tags": [
+      "waterfront",
+      "quiet",
+      "family",
+      "pool",
+      "garden",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "An inward-looking sanctuary.",
+        "ar": "ملاذ يحتضن الهدوء."
+      }
+    ],
+    "scores": {
+      "privacy": 98,
+      "outdoor": 84,
+      "family": 90,
+      "investment": 72
+    },
+    "story": {
+      "en": "A sheltered courtyard brings daylight deep into the plan without giving away privacy. Timber screens soften the relationship with the street. Generous rooms surround a planted centre, creating a quiet address close to Jumeirah’s everyday pleasures.",
+      "ar": "يدخل ضوء النهار عميقاً عبر فناء محمي دون المساس بالخصوصية. تلطف المشربيات الخشبية علاقة المنزل بالشارع. تحيط الغرف الرحبة بقلب أخضر لتشكل عنواناً هادئاً قريباً من تفاصيل الحياة في جميرا."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance, living areas and terrace",
+          "ar": "المدخل والمعيشة والتراس"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/noor/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Courtyard screens and bedroom cabinetry",
+          "ar": "مشربيات الفناء وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/noor/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Garden-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على الحديقة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/noor/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Private pool",
+        "ar": "مسبح خاص"
+      },
+      {
+        "en": "Landscaped garden",
+        "ar": "حديقة منسقة"
+      },
+      {
+        "en": "Shaded terrace",
+        "ar": "تراس مظلل"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/noor/day-1.webp",
+        "/images/properties/noor/day-2.webp",
+        "/images/properties/noor/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/noor/floorplan.svg",
+    "orientation": "south",
+    "availability": "available",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "aurelia",
+      "ivory"
+    ],
+    "advisorId": "a1"
+  },
+  {
+    "id": "aurelia",
+    "slug": "aurelia-penthouse",
+    "name": {
+      "en": "AURELIA PENTHOUSE",
+      "ar": "بنتهاوس أوريليا"
+    },
+    "type": "penthouse",
+    "price": {
+      "amount": 24500000,
+      "currency": "AED"
+    },
+    "area_sqft": 7100,
+    "bedrooms": 4,
+    "bathrooms": 6,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Downtown Dubai",
+        "ar": "داون تاون دبي"
+      },
+      "waterfront_min": 18,
+      "downtown_min": 3,
+      "airport_min": 19,
+      "dining_min": 6
+    },
+    "tags": [
+      "city",
+      "quiet",
+      "investment",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "The city, from another angle.",
+        "ar": "المدينة، من زاوية أخرى."
+      }
+    ],
+    "scores": {
+      "privacy": 86,
+      "outdoor": 79,
+      "family": 72,
+      "investment": 91
+    },
+    "story": {
+      "en": "Above the pace of Downtown, this corner penthouse opens into a wide horizon. A continuous living and dining space meets a wraparound terrace. Natural finishes lend warmth to the city setting, while a separate bedroom wing preserves the distinction between hosting and home.",
+      "ar": "فوق إيقاع وسط المدينة، تنفتح شقة الزاوية على أفق واسع. تلتقي المعيشة والطعام بتراس يحيط بالمساحة. تضفي التشطيبات الطبيعية دفئاً على المشهد الحضري، ويحفظ جناح النوم المستقل التوازن بين الضيافة والحياة الخاصة."
+    },
+    "designed_for": [
+      {
+        "en": "A well-connected city routine.",
+        "ar": "حياة يومية متصلة بالمدينة."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance and living-area flooring",
+          "ar": "أرضيات المدخل والمعيشة"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/aurelia/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/aurelia/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "City-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على المدينة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/aurelia/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Open-plan living",
+        "ar": "مساحات مفتوحة"
+      },
+      {
+        "en": "Dedicated parking",
+        "ar": "موقف مخصص"
+      },
+      {
+        "en": "Wide city views",
+        "ar": "إطلالات واسعة على المدينة"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/aurelia/day-1.webp",
+        "/images/properties/aurelia/day-2.webp",
+        "/images/properties/aurelia/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/aurelia/floorplan.svg",
+    "orientation": "corner",
+    "availability": "reserved",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "ivory",
+      "lumen"
+    ],
+    "advisorId": "a2"
+  },
+  {
+    "id": "ivory",
+    "slug": "the-ivory-villa",
+    "name": {
+      "en": "THE IVORY VILLA",
+      "ar": "فيلا آيفوري"
+    },
+    "type": "villa",
+    "price": {
+      "amount": 42000000,
+      "currency": "AED"
+    },
+    "area_sqft": 12500,
+    "bedrooms": 6,
+    "bathrooms": 8,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Emirates Hills",
+        "ar": "تلال الإمارات"
+      },
+      "waterfront_min": 19,
+      "downtown_min": 24,
+      "airport_min": 30,
+      "dining_min": 7
+    },
+    "tags": [
+      "city",
+      "quiet",
+      "family",
+      "investment",
+      "retreat",
+      "pool",
+      "garden",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "A residence shared with discretion.",
+        "ar": "منزل يُكتشف بخصوصية."
+      }
+    ],
+    "scores": {
+      "privacy": 100,
+      "outdoor": 97,
+      "family": 94,
+      "investment": 78
+    },
+    "story": {
+      "en": "This private residence is introduced through a personal conversation. Architectural information, imagery and viewing arrangements are available only through a private consultation.",
+      "ar": "يُقدَّم هذا المنزل الخاص من خلال حوار شخصي. تتاح المعلومات المعمارية والصور وترتيبات الزيارة حصرياً عبر استشارة خاصة."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance, living areas and terrace",
+          "ar": "المدخل والمعيشة والتراس"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/ivory/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/ivory/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Garden-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على الحديقة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/ivory/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Private pool",
+        "ar": "مسبح خاص"
+      },
+      {
+        "en": "Landscaped garden",
+        "ar": "حديقة منسقة"
+      },
+      {
+        "en": "Shaded terrace",
+        "ar": "تراس مظلل"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/ivory/day-1.webp",
+        "/images/properties/ivory/day-2.webp",
+        "/images/properties/ivory/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/ivory/floorplan.svg",
+    "orientation": "west",
+    "availability": "available",
+    "is_private": true,
+    "label": null,
+    "similarPropertyIds": [
+      "lumen",
+      "ora"
+    ],
+    "advisorId": "a1"
+  },
+  {
+    "id": "lumen",
+    "slug": "lumen-residences",
+    "name": {
+      "en": "LUMEN RESIDENCES",
+      "ar": "لومن ريزيدنسز"
+    },
+    "type": "apartment",
+    "price": {
+      "amount": 3800000,
+      "currency": "AED"
+    },
+    "area_sqft": 2150,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "location": {
+      "city": {
+        "en": "Abu Dhabi",
+        "ar": "أبو ظبي"
+      },
+      "district": {
+        "en": "Al Reem Island",
+        "ar": "جزيرة الريم"
+      },
+      "waterfront_min": 7,
+      "downtown_min": 12,
+      "airport_min": 29,
+      "dining_min": 3
+    },
+    "tags": [
+      "waterfront",
+      "family",
+      "investment",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "A lighter way to live in the city.",
+        "ar": "حياة أكثر إشراقاً في المدينة."
+      }
+    ],
+    "scores": {
+      "privacy": 72,
+      "outdoor": 68,
+      "family": 83,
+      "investment": 94
+    },
+    "story": {
+      "en": "Soft morning light sets the tone for an apartment with an unusually generous living room. A practical plan keeps circulation compact and usable space open. The waterfront promenade and local cafés bring daily life within easy reach.",
+      "ar": "يحدد ضوء الصباح الناعم طابع شقة ذات غرفة معيشة رحبة. يقلل المخطط العملي مساحات الحركة لصالح فراغات أكثر قابلية للاستخدام. يمتد ممشى الواجهة البحرية والمقاهي المحلية على مقربة من الحياة اليومية."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance and living-area flooring",
+          "ar": "أرضيات المدخل والمعيشة"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/lumen/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/lumen/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "City-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على المدينة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/lumen/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Open-plan living",
+        "ar": "مساحات مفتوحة"
+      },
+      {
+        "en": "Dedicated parking",
+        "ar": "موقف مخصص"
+      },
+      {
+        "en": "Wide city views",
+        "ar": "إطلالات واسعة على المدينة"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/lumen/day-1.webp",
+        "/images/properties/lumen/day-2.webp",
+        "/images/properties/lumen/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/lumen/floorplan.svg",
+    "orientation": "east",
+    "availability": "coming_soon",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "ora",
+      "sable"
+    ],
+    "advisorId": "a2"
+  },
+  {
+    "id": "ora",
+    "slug": "ora-house",
+    "name": {
+      "en": "ORA HOUSE",
+      "ar": "أورا هاوس"
+    },
+    "type": "villa",
+    "price": {
+      "amount": 16800000,
+      "currency": "AED"
+    },
+    "area_sqft": 5900,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "location": {
+      "city": {
+        "en": "Abu Dhabi",
+        "ar": "أبو ظبي"
+      },
+      "district": {
+        "en": "Saadiyat Island",
+        "ar": "جزيرة السعديات"
+      },
+      "waterfront_min": 5,
+      "downtown_min": 16,
+      "airport_min": 25,
+      "dining_min": 4
+    },
+    "tags": [
+      "waterfront",
+      "quiet",
+      "family",
+      "investment",
+      "retreat",
+      "pool",
+      "garden",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "Between the garden and the sea.",
+        "ar": "بين الحديقة والبحر."
+      }
+    ],
+    "scores": {
+      "privacy": 93,
+      "outdoor": 95,
+      "family": 88,
+      "investment": 84
+    },
+    "story": {
+      "en": "Long horizontal lines frame a home made for unhurried weekends and everyday escapes. The living spaces unfold towards the garden, with shaded outdoor rooms extending the floor plan. Saadiyat’s cultural district is close enough to become part of a regular routine.",
+      "ar": "ترسم الخطوط الأفقية الطويلة منزلاً لعطلات هادئة ولحظات استراحة يومية. تنفتح مساحات المعيشة نحو الحديقة، وتكمل الغرف الخارجية المظللة المخطط. يتيح قرب المنطقة الثقافية في السعديات جعل الفن جزءاً من الروتين."
+    },
+    "designed_for": [
+      {
+        "en": "Space to gather, with room to retreat.",
+        "ar": "مساحة للاجتماع وأخرى للهدوء."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Entrance, living areas and terrace",
+          "ar": "المدخل والمعيشة والتراس"
+        },
+        "role": {
+          "en": "A continuous surface connects indoor and outdoor rooms.",
+          "ar": "سطح متصل يجمع الغرف الداخلية والخارجية."
+        },
+        "image": "/images/properties/ora/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Joinery and bedroom cabinetry",
+          "ar": "الأعمال الخشبية وخزائن غرف النوم"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/ora/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Garden-facing glazing",
+          "ar": "الواجهات الزجاجية المطلة على الحديقة"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/ora/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Private pool",
+        "ar": "مسبح خاص"
+      },
+      {
+        "en": "Landscaped garden",
+        "ar": "حديقة منسقة"
+      },
+      {
+        "en": "Shaded terrace",
+        "ar": "تراس مظلل"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/ora/day-1.webp",
+        "/images/properties/ora/day-2.webp",
+        "/images/properties/ora/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/ora/floorplan.svg",
+    "orientation": "north",
+    "availability": "available",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "sable",
+      "marin"
+    ],
+    "advisorId": "a1"
+  },
+  {
+    "id": "sable",
+    "slug": "the-sable",
+    "name": {
+      "en": "THE SABLE",
+      "ar": "ذا سيبل"
+    },
+    "type": "commercial",
+    "price": {
+      "amount": 6500000,
+      "currency": "AED"
+    },
+    "area_sqft": 3200,
+    "bedrooms": 0,
+    "bathrooms": 2,
+    "location": {
+      "city": {
+        "en": "Dubai",
+        "ar": "دبي"
+      },
+      "district": {
+        "en": "Business Bay",
+        "ar": "الخليج التجاري"
+      },
+      "waterfront_min": 15,
+      "downtown_min": 7,
+      "airport_min": 21,
+      "dining_min": 5
+    },
+    "tags": [
+      "city",
+      "investment",
+      "terrace"
+    ],
+    "editorialTags": [
+      {
+        "en": "A considered place to do your best work.",
+        "ar": "مكان مدروس لتقديم أفضل أعمالك."
+      }
+    ],
+    "scores": {
+      "privacy": 65,
+      "outdoor": 35,
+      "family": 28,
+      "investment": 97
+    },
+    "story": {
+      "en": "A light-filled commercial suite with a flexible open plan and room for private meeting spaces. The address places a business close to Downtown without losing its own identity. Material simplicity keeps attention on the people and ideas within.",
+      "ar": "مساحة تجارية مضيئة بمخطط مفتوح ومرن وإمكانية تخصيص غرف اجتماعات خاصة. يضع العنوان الأعمال قريباً من وسط المدينة دون أن تفقد هويتها. تترك بساطة المواد المجال للأشخاص والأفكار في الداخل."
+    },
+    "designed_for": [
+      {
+        "en": "A well-connected city routine.",
+        "ar": "حياة يومية متصلة بالمدينة."
+      },
+      {
+        "en": "People who appreciate light and natural materials.",
+        "ar": "لمن يقدّرون الضوء والمواد الطبيعية."
+      }
+    ],
+    "materials": [
+      {
+        "id": "stone",
+        "name": {
+          "en": "Pale limestone",
+          "ar": "حجر جيري فاتح"
+        },
+        "usedIn": {
+          "en": "Reception and shared circulation",
+          "ar": "الاستقبال ومساحات الحركة المشتركة"
+        },
+        "role": {
+          "en": "A durable floor anchors the arrival experience.",
+          "ar": "أرضية متينة تمنح تجربة الوصول وضوحاً."
+        },
+        "image": "/images/properties/sable/stone.webp"
+      },
+      {
+        "id": "oak",
+        "name": {
+          "en": "Natural oak",
+          "ar": "بلوط طبيعي"
+        },
+        "usedIn": {
+          "en": "Reception desk and meeting-room storage",
+          "ar": "مكتب الاستقبال وخزائن غرف الاجتماعات"
+        },
+        "role": {
+          "en": "Warm grain softens the architectural lines.",
+          "ar": "عروق دافئة تلطف الخطوط المعمارية."
+        },
+        "image": "/images/properties/sable/oak.webp"
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Low-emissivity glass",
+          "ar": "زجاج منخفض الانبعاثية"
+        },
+        "usedIn": {
+          "en": "Perimeter glazing and meeting-room partitions",
+          "ar": "الواجهات الزجاجية وفواصل غرف الاجتماعات"
+        },
+        "role": {
+          "en": "Admits daylight while moderating solar heat gain.",
+          "ar": "يسمح بدخول الضوء مع الحد من اكتساب الحرارة الشمسية."
+        },
+        "image": "/images/properties/sable/glass.webp"
+      }
+    ],
+    "features": [
+      {
+        "en": "Open-plan living",
+        "ar": "مساحات مفتوحة"
+      },
+      {
+        "en": "Dedicated parking",
+        "ar": "موقف مخصص"
+      },
+      {
+        "en": "Wide city views",
+        "ar": "إطلالات واسعة على المدينة"
+      }
+    ],
+    "images": {
+      "day": [
+        "/images/properties/sable/day-1.webp",
+        "/images/properties/sable/day-2.webp",
+        "/images/properties/sable/day-3.webp"
+      ]
+    },
+    "floorplan": "/images/properties/sable/floorplan.svg",
+    "orientation": "corner",
+    "availability": "available",
+    "is_private": false,
+    "label": null,
+    "similarPropertyIds": [
+      "marin",
+      "vela"
+    ],
+    "advisorId": "a2"
+  }
+]
