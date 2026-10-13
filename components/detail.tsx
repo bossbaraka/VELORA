@@ -85,7 +85,7 @@ export function ResidenceDetail({
         >
           <Image
             src={gallery[image % gallery.length]}
-            alt={p.name[locale]}
+            alt={t("illustrativePhotoAlt")}
             fill
             priority
             sizes="100vw"
@@ -266,7 +266,7 @@ export function ResidenceDetail({
       <section className="detail-architecture">
         <Image
           src={p.images.day[1]}
-          alt={t("architecture")}
+          alt={t("illustrativePhotoAlt")}
           fill
           sizes="100vw"
         />
@@ -338,7 +338,7 @@ export function ResidenceDetail({
         <div className="material-image">
           <Image
             src={selected.image}
-            alt={selected.name[locale]}
+            alt={t("illustrativePhotoAlt")}
             fill
             sizes="(max-width: 700px) 100vw, 50vw"
           />
@@ -374,7 +374,7 @@ export function ResidenceDetail({
             <figure key={src}>
               <Image
                 src={src}
-                alt={`${p.name[locale]} — ${number(i + 2, locale)}`}
+                alt={t("illustrativePhotoAlt")}
                 width={1000}
                 height={720}
                 sizes="(max-width:700px) 100vw,50vw"

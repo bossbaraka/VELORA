@@ -6,10 +6,9 @@ import { useExperience } from "./experience-provider";
 import { getProperties } from "@/lib/data";
 import { matchScore, contributors } from "@/lib/match";
 import { area, number } from "@/lib/format";
-import type { Property } from "@/lib/types";
-import { INTENTS } from "@/constants/intents";
+import type { Property, Scores } from "@/lib/types";
 import type { TranslationKey } from "@/i18n";
-import { Eyebrow, Arrow } from "./ui";
+import { Arrow, Eyebrow } from "./ui";
 export function MatchPanel({
   property: p,
   compact = false,
@@ -47,8 +46,16 @@ export function MatchPanel({
     </div>
   );
 }
+const explanationKeys: Record<keyof Scores, TranslationKey> = {
+  privacy: "whyPrivacy",
+  outdoor: "whyOutdoor",
+  family: "whyFamily",
+  investment: "whyInvestment",
+};
+
 export function WhyProperty({ property: p }: { property: Property }) {
-  const { t, locale } = useExperience();
+  const { t, locale, intent } = useExperience();
+  const priorities = contributors(p, intent);
   return (
     <details className="why-property">
       <summary>
@@ -56,13 +63,23 @@ export function WhyProperty({ property: p }: { property: Property }) {
         <Plus size={13} />
       </summary>
       <ul>
-        <li>
-          {t("whyWaterfront", { n: number(p.location.waterfront_min, locale) })}
-        </li>
+        {priorities.map((priority) => (
+          <li key={priority}>
+            {t(explanationKeys[priority], {
+              n: number(p.scores[priority], locale),
+            })}
+          </li>
+        ))}
+        {p.tags.includes("waterfront") && (
+          <li>
+            {t("whyWaterfront", {
+              n: number(p.location.waterfront_min, locale),
+            })}
+          </li>
+        )}
         <li>{t("whySpace", { area: area(p.area_sqft, locale) })}</li>
-        <li>{t("whyPrivacy", { n: number(p.scores.privacy, locale) })}</li>
       </ul>
-      <small>{t("demoScoring")}</small>
+      <small>{t("scoreNote")}</small>
     </details>
   );
 }
@@ -123,7 +140,7 @@ export function ContinueExploring() {
             <div className="continue-image">
               <Image
                 src={p.images.day[0]}
-                alt={p.name[locale]}
+                alt={t("illustrativePhotoAlt")}
                 fill
                 sizes="150px"
               />
@@ -133,27 +150,6 @@ export function ContinueExploring() {
               <h3>{p.name[locale]}</h3>
               <span>{p.location.district[locale]}</span>
             </div>
-            <Arrow />
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
-export function EditorialCollections() {
-  const { t, locale } = useExperience();
-  return (
-    <section className="editorial-collections section-pad">
-      <Eyebrow>{t("collection")}</Eyebrow>
-      <h2>{t("editorialCollections")}</h2>
-      <div>
-        {INTENTS.map((i, index) => (
-          <Link
-            key={i}
-            href={`/${locale}/collection?intent=${i}&q=${i === "private" ? "quiet" : i === "home" ? "downtown" : i === "retreat" ? "quiet waterfront" : i}`}
-          >
-            <small>0{index + 1}</small>
-            <span>{t(`edit_${i}`)}</span>
             <Arrow />
           </Link>
         ))}

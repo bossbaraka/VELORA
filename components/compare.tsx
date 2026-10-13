@@ -74,7 +74,7 @@ export function Compare() {
                         <div className="comparison-photo">
                           <Image
                             src={p.images.day[0]}
-                            alt={p.name[locale]}
+                            alt={t("illustrativePhotoAlt")}
                             width={500}
                             height={340}
                           />

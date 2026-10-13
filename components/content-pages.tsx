@@ -57,7 +57,7 @@ export function Story() {
       <div className="story-wide-image">
         <Image
           src="/images/editorial/material-matters.jpg"
-          alt={t("architecture")}
+          alt={t("illustrativePhotoAlt")}
           fill
           priority
           sizes="100vw"
@@ -168,10 +168,11 @@ export function Journal() {
             <Link
               className="journal-image"
               href={`/${locale}/journal/${a.slug}`}
+              aria-label={`${a.title[locale]} — ${t("illustrativePhotoAlt")}`}
             >
               <Image
                 src={a.cover}
-                alt={a.title[locale]}
+                alt={t("illustrativePhotoAlt")}
                 fill
                 sizes="(max-width:700px) 100vw,50vw"
               />
@@ -209,7 +210,7 @@ export function JournalArticle({ article: a }: { article: Article }) {
         <div className="article-image">
           <Image
             src={a.cover}
-            alt={a.title[locale]}
+            alt={t("illustrativePhotoAlt")}
             fill
             priority
             sizes="100vw"

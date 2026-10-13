@@ -16,10 +16,12 @@ export function PropertyCard({
   property: p,
   set,
   priority = false,
+  showMatch = true,
 }: {
   property: Property;
   set: Property[];
   priority?: boolean;
+  showMatch?: boolean;
 }) {
   const { locale, intent, t, saved, compared, toggleSave, toggleCompare } =
     useExperience();
@@ -55,7 +57,7 @@ export function PropertyCard({
         onClick={(e) => openResidence(e, p)}
         data-residence={p.id}
         className="property-image"
-        aria-label={`${t(`label_${label}` as TranslationKey)} — ${t("exploreResidence")} — ${p.name[locale]}`}
+        aria-label={`${p.name[locale]} — ${t("illustrativePhotoAlt")}`}
       >
         <motion.div
           className="shared-image"
@@ -64,7 +66,7 @@ export function PropertyCard({
         >
           <Image
             src={p.images.day[0]}
-            alt={`${p.name[locale]} · ${p.location.district[locale]}`}
+            alt={t("illustrativePhotoAlt")}
             fill
             sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 60vw"
             priority={priority}
@@ -87,7 +89,7 @@ export function PropertyCard({
         onClick={(e) => openResidence(e, p)}
         href={`/${locale}/collection/${p.slug}`}
       >
-        <h3>{p.name[locale]}</h3>
+        <h3 dir="auto">{p.name[locale]}</h3>
       </Link>
       <p className="property-tagline">{p.editorialTags[0][locale]}</p>
       <div className="property-facts">
@@ -104,7 +106,9 @@ export function PropertyCard({
         </span>
       </div>
       <div className="property-bottom">
-        <strong>{price(p.price.amount, locale)}</strong>
+        <strong>
+          <bdi>{price(p.price.amount, locale)}</bdi>
+        </strong>
         <Link
           onClick={(e) => openResidence(e, p)}
           className="text-link"
@@ -114,10 +118,12 @@ export function PropertyCard({
           <Arrow />
         </Link>
       </div>
-      <div className="card-intelligence">
-        <MatchPanel property={p} compact />
-        <WhyProperty property={p} />
-      </div>
+      {showMatch && (
+        <div className="card-intelligence">
+          <MatchPanel property={p} compact />
+          <WhyProperty property={p} />
+        </div>
+      )}
       <div className="property-tools">
         <button
           aria-pressed={saved.includes(p.id)}

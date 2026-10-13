@@ -1,12 +1,14 @@
 import { MOTION } from "./tokens";
+
 export const reveal = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 16 },
   visible: {
     opacity: 1,
     y: 0,
     transition: { duration: MOTION.entrance, ease: MOTION.ease },
   },
 };
+
 export const fade = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },

@@ -68,9 +68,9 @@ export function Reveal({
   return (
     <motion.div
       className={className}
-      initial={false}
+      initial={reduced ? false : "hidden"}
       whileInView="visible"
-      viewport={{ once: true, amount: 0.12 }}
+      viewport={{ once: true, amount: 0.16, margin: "0px 0px -6% 0px" }}
       variants={reveal}
     >
       {children}
