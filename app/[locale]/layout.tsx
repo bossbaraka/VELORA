@@ -1,34 +1,53 @@
 import type { Metadata } from "next";
-import {
-  Manrope,
-  Cormorant_Garamond,
-  IBM_Plex_Sans_Arabic,
-} from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import "@/styles/globals.css";
 import { ExperienceProvider } from "@/components/experience-provider";
 import { Header, Footer } from "@/components/chrome";
 import type { Locale } from "@/lib/types";
-const manrope = Manrope({
-  subsets: ["latin"],
-  preload: false,
+const manrope = localFont({
+  src: "../../assets/fonts/manrope-latin-variable.woff2",
+  weight: "200 800",
   display: "swap",
   variable: "--font-manrope",
+  fallback: ["Helvetica Neue", "Arial", "sans-serif"],
 });
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  preload: false,
-  weight: ["400"],
-  style: ["normal", "italic"],
+const instrumentSerif = localFont({
+  src: [
+    {
+      path: "../../assets/fonts/instrument-serif-latin-400-normal.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/instrument-serif-latin-400-italic.woff2",
+      weight: "400",
+      style: "italic",
+    },
+  ],
   display: "swap",
   variable: "--font-editorial",
+  fallback: ["Iowan Old Style", "Georgia", "serif"],
 });
-const arabic = IBM_Plex_Sans_Arabic({
-  subsets: ["arabic"],
-  preload: false,
-  weight: ["400"],
+const arabic = localFont({
+  src: [
+    {
+      path: "../../assets/fonts/ibm-plex-sans-arabic-400.woff2",
+      weight: "400",
+    },
+    {
+      path: "../../assets/fonts/ibm-plex-sans-arabic-500.woff2",
+      weight: "500",
+    },
+    {
+      path: "../../assets/fonts/ibm-plex-sans-arabic-600.woff2",
+      weight: "600",
+    },
+  ],
   display: "swap",
+  preload: false,
   variable: "--font-arabic",
+  fallback: ["Noto Sans Arabic", "Tahoma", "sans-serif"],
 });
 const baseMetadata: Metadata = {
   title: {
@@ -73,7 +92,7 @@ export default async function RootLayout({
     <html
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
-      className={`${manrope.variable} ${cormorant.variable} ${arabic.variable}`}
+      className={`${manrope.variable} ${instrumentSerif.variable} ${arabic.variable}`}
     >
       <body>
         <ExperienceProvider locale={locale as Locale}>

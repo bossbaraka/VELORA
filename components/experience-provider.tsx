@@ -6,13 +6,14 @@ import {
   useState,
   useCallback,
 } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import { usePathname } from "next/navigation";
 import { MotionConfig } from "framer-motion";
 import { CONFIG } from "@/constants/config";
 import { MOTION } from "@/motion/tokens";
 import { ResidenceTransitions } from "./residence-transition";
 import { translate, type TranslationKey } from "@/i18n";
-import type { Locale, Intent } from "@/lib/types";
+import type { AdvisorMessage, Locale, Intent } from "@/lib/types";
 type Store = {
   saved: string[];
   compared: string[];
@@ -39,6 +40,9 @@ type Experience = Store & {
   dismiss: () => void;
   notice: string;
   announce: (s: string) => void;
+  advisorMessages: AdvisorMessage[];
+  setAdvisorMessages: Dispatch<SetStateAction<AdvisorMessage[]>>;
+  resetAdvisor: () => void;
 };
 const Context = createContext<Experience | null>(null);
 export function ExperienceProvider({
@@ -51,6 +55,8 @@ export function ExperienceProvider({
   const [store, setStore] = useState<Store>(initial);
   const [ready, setReady] = useState(false);
   const [notice, setNotice] = useState("");
+  // Consultation turns stay in memory only; unlike shortlist/compare they are never persisted.
+  const [advisorMessages, setAdvisorMessages] = useState<AdvisorMessage[]>([]);
   const pathname = usePathname();
   useEffect(() => {
     try {
@@ -143,6 +149,9 @@ export function ExperienceProvider({
         dismiss: () => setStore((s) => ({ ...s, dismissed: true })),
         notice,
         announce: setNotice,
+        advisorMessages,
+        setAdvisorMessages,
+        resetAdvisor: () => setAdvisorMessages([]),
       }}
     >
       <MotionConfig

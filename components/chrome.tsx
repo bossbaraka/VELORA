@@ -89,8 +89,8 @@ export function Header() {
             <Bookmark size={17} strokeWidth={1.3} />
             {saved.length > 0 && <span>{saved.length}</span>}
           </Link>
-          <Link className="header-cta" href={`/${locale}/contact`}>
-            {t("consultation")}
+          <Link className="header-cta" href={`/${locale}/advisor`}>
+            {t("advisorCta")}
             <ArrowUpRight className="directional" size={14} />
           </Link>
           <button
@@ -136,6 +136,10 @@ export function Header() {
           <Link onClick={() => setOpen(false)} href={`/${locale}/shortlist`}>
             {t("shortlist")} ({saved.length})
           </Link>
+          <Link onClick={() => setOpen(false)} href={`/${locale}/advisor`}>
+            {t("advisorCta")}
+            <Arrow />
+          </Link>
           <Link onClick={() => setOpen(false)} href={`/${locale}/contact`}>
             {t("consultation")}
             <Arrow />
@@ -150,13 +154,16 @@ export function ConsultationBand() {
   const { locale, t } = useExperience();
   return (
     <section className="consultation-band">
-      <Monogram />
-      <p className="eyebrow">{t("ctaEyebrow")}</p>
-      <h2>{t("ctaTitle")}</h2>
-      <p>{t("ctaCopy")}</p>
-      <ButtonLink href={`/${locale}/contact`} light>
-        {t("contact")}
-      </ButtonLink>
+      <div>
+        <p className="eyebrow">{t("ctaEyebrow")}</p>
+        <h2>{t("ctaTitle")}</h2>
+      </div>
+      <div className="consultation-action">
+        <p>{t("ctaCopy")}</p>
+        <ButtonLink href={`/${locale}/contact`} light>
+          {t("contactDemo")}
+        </ButtonLink>
+      </div>
     </section>
   );
 }
